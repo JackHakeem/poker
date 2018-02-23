@@ -1,0 +1,110 @@
+<resources>
+	<ek value="BluePay">2_35FE5FCAE95C9CF2BE94F167B1FC5DD5630FF13EF1F321A8CCA5D998166B340A</ek>
+	<productId value="100">1290</productId>
+	<promotionId value="1000">1000</promotionId>
+  
+	<!--notice: 
+		 之前的prices，prices-bankcharge，prices-line已取消，现在接口中传入price价格点错误会直接抛405异常
+	-->
+  
+	<!-- 以下列表都是为payByUI 所使用，如果你不使用这个接口，则不需要修改下面的信息，当然，可以删除掉 -->
+	<!-- bluecoins 的所有面额；例子：<price value="5000">500 Golden</price>   5000 代表 50THB，可以购买500 Golden-->
+    <prices-bluecoins>
+		<price value="5000">500 Golden</price>
+		<price value="9000">900 Golden</price>
+		<price value="15000">1500 Golden</price>
+		<price value="30000">3000 Golden</price>
+		<price value="50000">5000 Golden</price>
+		<price value="100000">10000 Golden</price>
+    </prices-bluecoins>
+    <!-- truemoney 的所有面额；例子：<price value="5000">500 Golden</price>   5000 代表 50THB，可以购买500 Golden-->
+    <prices-truemoney>
+		<price value="5000">500 Golden</price>
+		<price value="9000">900 Golden</price>
+		<price value="15000">1500 Golden</price>
+		<price value="30000">3000 Golden</price>
+		<price value="50000">5000 Golden</price>
+		<price value="100000">10000 Golden</price>
+    </prices-truemoney>
+   
+    <!-- 12call 的所有面额；例子：<price value="5000">500 Golden</price>   5000 代表 50THB，可以购买500 Golden-->
+    <prices-12call>
+		<price value="5000">500 Golden</price>
+		<price value="10000">1000 Golden</price>
+		<price value="30000">3000 Golden</price>
+		<price value="50000">5000 Golden</price>
+		<price value="100000">10000 Golden</price>
+    </prices-12call> 
+   
+    <!-- dtac 的所有面额；例子：<price value="5000">500 Golden</price>   6000 代表 60THB，可以购买600 Golden-->
+    <prices-dtac>
+		<price value="6000">600 Golden</price>
+		<price value="10000">1000 Golden</price>
+		<price value="20000">2000 Golden</price>
+		<price value="30000">3000 Golden</price>
+		<price value="50000">5000 Golden</price>
+    </prices-dtac>
+  
+    <!-- viettel 的所有面额；例子：<price value="10000">500 Golden</price>   10000 代表 10000 VND，可以购买100 Golden-->
+    <prices-viettel>
+		<price value="10000">100 Golden</price>
+		<price value="20000">200 Golden</price>
+		<price value="30000">300 Golden</price>
+		<price value="50000">500 Golden</price>
+		<price value="100000">1000 Golden</price>
+		<price value="200000">2000 Golden</price>
+		<price value="500000">5000 Golden</price>
+    </prices-viettel>
+  
+    <!-- mobifone 的所有面额；例子：<price value="10000">500 Golden</price>   10000 代表 10000 VND，可以购买100 Golden-->
+    <prices-mobifone>
+		<price value="10000">100 Golden</price>
+		<price value="20000">200 Golden</price>
+		<price value="30000">300 Golden</price>
+		<price value="50000">500 Golden</price>
+		<price value="100000">1000 Golden</price>
+		<price value="200000">2000 Golden</price>
+		<price value="500000">5000 Golden</price>
+    </prices-mobifone>
+  
+    <!-- vinaphone 的所有面额；例子：<price value="10000">100 Golden</price>   10000 代表 10000 VND，可以购买100 Golden-->
+    <prices-vinaphone>
+		<price value="10000">100 Golden</price>
+		<price value="20000">200 Golden</price>
+		<price value="30000">300 Golden</price>
+		<price value="50000">500 Golden</price>
+		<price value="100000">1000 Golden</price>
+		<price value="200000">2000 Golden</price>
+		<price value="500000">5000 Golden</price>
+    </prices-vinaphone>
+  
+    <!-- vtc 的所有面额；例子：<price value="10000">100 Golden</price>   10000 代表 10000 VND，可以购买100 Golden-->
+    <prices-vtc>
+		<price value="10000">100 Golden</price>
+		<price value="20000">200 Golden</price>
+		<price value="50000">500 Golden</price>
+		<price value="100000">1000 Golden</price>
+		<price value="200000">2000 Golden</price>
+		<price value="300000">3000 Golden</price>
+		<price value="500000">5000 Golden</price>
+    </prices-vtc>
+ 
+    <!-- indomog(mogoplay) 的所有面额；例子：<price value="20000">20 Golden</price>   20000 代表 20000 IDR，可以购买200 Golden-->
+    <prices-indomog>
+		<price value="20000">200 Golden</price>
+		<price value="50000">500 Golden</price>
+		<price value="100000">1000 Golden</price>
+		<price value="200000">2000 Golden</price>		
+		<price value="500000">5000 Golden</price>
+    </prices-indomog>
+  
+    <!-- game-on(lytocard) 的所有面额；例子：<price value="5000">50 Golden</price>   5000 代表 5000 IDR，可以购买50 Golden-->
+    <prices-lytocard>
+		<price value="5000">50 Golden</price>
+		<price value="10000">100 Golden</price>
+		<price value="25000">250 Golden</price>
+		<price value="100000">1000 Golden</price>
+		<price value="250000">2500 Golden</price>
+		<price value="500000">5000 Golden</price>	
+    </prices-lytocard>
+</resources>

@@ -1,0 +1,9 @@
+{
+    "packageUrl": "http://thailand.haoyun51.com/Public/app/hotupdate/android/5/",
+    "remoteManifestUrl": "http://thailand.haoyun51.com/Public/app/hotupdate/android/5/res/project.manifest",
+    "remoteVersionUrl": "http://thailand.haoyun51.com/Public/app/hotupdate/android/5/res/version.manifest",
+    "version": "1.5.0",
+    "engineVersion": "Cocos2dx-lua 3.6.5",
+    "assets": {},
+    "searchPaths": []
+}

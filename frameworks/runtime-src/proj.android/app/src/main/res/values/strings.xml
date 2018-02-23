@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Woyao Poker</string>
+    <string name="facebook_app_id">857066647795122</string>
+    <string name="fb_login_protocol_scheme">fb857066647795122</string>
+    <string name="fb_content_provider">com.facebook.app.FacebookContentProvider857066647795122</string>
+    <string name="blue_pay_scheme">woyaopoker</string>
+    <string name="blue_pay_host">best.bluepay.asia.thai</string>
+    <string name="blue_pay_currency">THB</string><!-- THB 泰语, IDR 印尼，VND 越南-->
+
+    <string name="sure">ตกลง</string>
+    <string name="cancel">ยกเลิก</string>
+    <string name="read_phone_state">ฝ่ายเราขอเก็บข้อมูลบัญชีของท่านเพื่อความปลอดภัยและป้องกันความเสียหาย</string>
+
+    <!--<string name="facebook_app_id">276692132740667</string>-->
+    <!--<string name="fb_login_protocol_scheme">fb276692132740667</string>-->
+</resources>

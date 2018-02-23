@@ -1,0 +1,1323 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2018-02-07 20:53+0800\n"
+"PO-Revision-Date: 2018-02-08 11:33+0800\n"
+"Last-Translator: bearluo <304796487@qq.com>\n"
+"Language-Team: \n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.2\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: src\n"
+"X-Poedit-SearchPath-1: res\n"
+
+#: src/app/libs/StaticEvent.lua:6 src/app/libs/StaticEvent.lua:17
+#: src/app/libs/StaticEvent.lua:26
+msgid "支付成功筹码到賬中..."
+msgstr "ชำระเงินสำเร็จค่ะ  เหรียญเกมเข้าบัญชีอัตโนมัติ"
+
+#: src/app/libs/StaticEvent.lua:81
+msgid "獲取版本信息失敗"
+msgstr "ดึงข้อมูลเวอร์ชั่นล้มเหลว"
+
+#: src/app/libs/StaticEvent.lua:300 src/app/libs/StaticEvent.lua:303
+#: src/app/libs/StaticEvent.lua:306
+msgid "奖励 {s1}筹码 已到账"
+msgstr "รางวัล ชิป {s1} ได้เข้าบัญชีแล้ว"
+
+#: src/app/libs/StaticEvent.lua:522 src/app/libs/StaticEvent.lua:564
+msgid "筹码到账"
+msgstr "เหรียญเกมเข้าบัญชีแล้ว"
+
+#: src/app/libs/StaticEvent.lua:558
+msgid "支付獲取筹码失敗,請與客服聯係"
+msgstr "ชำระเงินล้มเหลวค่ะ กรุณาติอต่อฝ่ายบริการลูกค้า"
+
+#: src/app/net/gsocket.lua:181
+msgid "你的賬號在其他地方登陸"
+msgstr "บัญชีของท่านล็อกอินที่อื่น"
+
+#: src/app/net/httpproc/app/login/loginfb.lua:58
+#: src/app/net/httpproc/app/login/logintour.lua:52
+msgid "服務器配置拉取失敗"
+msgstr "ดึงข้อมูลเซิร์ฟเวอร์ล้มเหลว"
+
+#: src/app/net/httpproc/app/login/loginfb.lua:62
+#: src/app/net/httpproc/app/login/logintour.lua:56
+msgid "您的賬號已經被封，請聯係GM"
+msgstr "บัญชีของท่านถูกแบน กรุณาติดต่อ GM"
+
+#: src/app/net/httpproc/app/login/loginfb.lua:66
+#: src/app/net/httpproc/app/login/logintour.lua:60
+msgid "登陸失敗 ："
+msgstr "ล็อกอินล้มเหลว ："
+
+#: src/app/scenes/LoginScene.lua:83
+msgid "版本{s1}"
+msgstr "เวอร์ชั่น{s1}"
+
+#: src/app/scenes/LoginScene.lua:149
+msgid "游客登陸中..."
+msgstr "กำลังล็อกอิน"
+
+#: src/app/scenes/LoginScene.lua:152
+msgid "facebook登陸中..."
+msgstr "กำลังล็อกอิน "
+
+#: src/app/scenes/LoginScene.lua:177
+msgid "版本檢查中..."
+msgstr "กำลังเช็คเวอร์ชั่น "
+
+#: src/app/scenes/LoginScene.lua:181
+msgid "游戲服務器連接失敗"
+msgstr "เชื่อมต่อเซิร์ฟเวอร์ขัดข้อง"
+
+#: src/app/scenes/LoginScene.lua:208
+msgid "獲取配置..."
+msgstr "ดึงข้อมูล"
+
+#: src/app/scenes/LoginScene.lua:224 src/app/scenes/LoginScene.lua:236
+msgid "登陸失敗! error:"
+msgstr "ล็อกอินล้มเหลว error:"
+
+#: src/app/scenes/LoginScene.lua:281 src/app/scenes/LoginScene.lua:315
+#: src/app/scenes/LoginScene.lua:345
+msgid "連接服務器中..."
+msgstr "กำลังเชื่อมต่อเซิร์ฟเวอร์อยู่"
+
+#: src/app/scenes/LoginScene.lua:293 src/app/scenes/LoginScene.lua:327
+msgid "服务器正在维护当中，预计完成时间为{s1}，请您稍后再尝试登录。给您带来的不便敬请原谅！"
+msgstr "เซิร์ฟเวอร์กำลังซ่อนบำรุงอยู่ ค่าดว่าจะเสร็จเมื่อเวลา{s1} กรุณาลองใหม่ภายหลัง ความไม่สะดวกที่ติดมาหืท่านขอให้อภัยด้วย"
+
+#: src/app/scenes/LoginScene.lua:435
+msgid "检测资源文件中..."
+msgstr "ระบบกำลังตรวจสอบ"
+
+#: src/app/scenes/LoginScene.lua:458
+msgid "检测文件版本中..."
+msgstr "กำลังตรวจเวอร์ชั่นเกม"
+
+#: src/app/scenes/LoginScene.lua:461
+msgid "检测文件Manifest中..."
+msgstr "ระบบกำลังตรวจสอบ Manifest"
+
+#: src/app/scenes/LoginScene.lua:464
+msgid "正在更新资源包({s1}%)"
+msgstr "กำลังอัพเดท({s1}%)"
+
+#: src/app/scenes/LoginScene.lua:489
+msgid "发现新版本，开始升级"
+msgstr "มีเวอร์ชั่นใหม่ เริ่มอัพเดท"
+
+#: src/app/scenes/LoginScene.lua:503
+msgid "更新失败,请重试"
+msgstr "อัพเดทล้มเหลว กรุณาลองใหม่ภายหลัง"
+
+#: src/app/scenes/MainScene.lua:390
+msgid "是否退出游戏"
+msgstr "ล็อกเอ้าท์เกมส์หรื่อไม่"
+
+#: src/app/scenes/MainScene.lua:726 src/app/scenes/MainScene.lua:917
+#: src/app/scenes/MainScene.lua:1164 src/app/views/CashMatchItem.lua:76
+#: src/app/views/CashMatchItem.lua:79 src/app/views/CashSetBlindItem.lua:28
+#: src/app/views/CreateRoomDialog.lua:426
+#: src/app/views/MttMatchInfoDialog.lua:117
+#: src/app/views/TouzhuExchangeView.lua:66
+#: src/app/views/TouzhuGameRoomView.lua:403
+#: src/app/views/TouzhuGameRoomView.lua:1049
+#: src/app/views/TouzhuGameView.lua:367 src/app/views/TouzhuGameView.lua:1000
+msgid "筹码不足"
+msgstr "เหรียญมีไม่พอค่ะ"
+
+#: src/app/scenes/MainScene.lua:742
+msgid "您已報名“{s1}”，比賽很快就要開始，要繼續嗎？"
+msgstr "ท่านได้สมัคร \"{s1}\" ไว้ การแข่งจะเริ่มขึ้นเร็วๆนี้ จะดำเนินการต่อหรือไม่คะ?"
+
+#: src/app/scenes/MainScene.lua:746
+msgid "您已報名“{s1}”，要繼續嗎？"
+msgstr "ท่านได้สมัคร \"{s1}\" ไว้ จะดำเนินการต่อหรือไม่คะ?"
+
+#: src/app/scenes/MainScene.lua:923
+msgid "vip点不足"
+msgstr "คะแนน มีไม่พอค่ะ"
+
+#: src/app/scenes/MainScene.lua:965
+msgid "比赛人数不足,提前结束"
+msgstr "การแข่งขันรอบนี้ยกเลิกแล้ว กรุณาติดตามครั้งต่อไป"
+
+#: src/app/scenes/MainScene.lua:1153 src/app/scenes/MainScene.lua:1156
+#: src/app/views/CashMatchItem.lua:69 src/app/views/CashSetView.lua:335
+msgid "匹配中..."
+msgstr "จัดห้องอยู่"
+
+#: src/app/scenes/MainScene.lua:1226
+#: src/app/scenes/controler/RoomControler.lua:1759
+msgid "兌換成功，請到您的個人信息欄中查看具體信息"
+msgstr "แลกสำเร็จ  เช็คได้ที่ข้อมูลส่วนตัวของท่าน"
+
+#: src/app/scenes/MainScene.lua:1228
+#: src/app/scenes/controler/RoomControler.lua:1761
+msgid "兌換成功"
+msgstr "แลกสำเร็จ"
+
+#: src/app/scenes/MainScene.lua:1236
+#: src/app/scenes/controler/RoomControler.lua:1770
+msgid "库存不足"
+msgstr "สินค้ามีไม่พอค่ะ"
+
+#: src/app/scenes/MainScene.lua:1238
+#: src/app/scenes/controler/RoomControler.lua:1772
+msgid "兌換失敗"
+msgstr "แลกล้มเหลว"
+
+#: src/app/scenes/MainScene.lua:1266
+msgid "您的資料已經提交成功，我們會儘快為您處理。"
+msgstr "ส่งสำเร็จค่ะ ทีมงานจะจัดการโดยเร็วที่สุด"
+
+#: src/app/scenes/MainScene.lua:1268
+msgid "數據提交失敗"
+msgstr "ส่งล้มเหลว กรุณาลองใหม่ภายหลัง"
+
+#: src/app/scenes/MainScene.lua:1298
+msgid "领取成功!"
+msgstr "รับสำเร็จ"
+
+#: src/app/scenes/MainScene.lua:1342
+msgid "领取失败"
+msgstr "รับล้มเหลว"
+
+#: src/app/scenes/MainScene.lua:1384
+msgid "報名成功"
+msgstr "สมัครสำเร็จ"
+
+#: src/app/scenes/MainScene.lua:1386 src/app/scenes/MainScene.lua:1688
+msgid "重複報名"
+msgstr "สมัครซ้ำ"
+
+#: src/app/scenes/MainScene.lua:1389 src/app/scenes/MainScene.lua:1691
+msgid "報名費用不足"
+msgstr "ค่าสมัครไม่พอ"
+
+#: src/app/scenes/MainScene.lua:1392 src/app/scenes/MainScene.lua:1694
+msgid "比賽不存在"
+msgstr "ไม่มีการแข่งนี้"
+
+#: src/app/scenes/MainScene.lua:1395 src/app/scenes/MainScene.lua:1703
+msgid "報名失败 : "
+msgstr "สมัครล้มเหลว : "
+
+#: src/app/scenes/MainScene.lua:1408 src/app/scenes/MainScene.lua:1731
+msgid "退賽失敗 : "
+msgstr "ออกแข่งล้มเหลว: "
+
+#: src/app/scenes/MainScene.lua:1438 src/app/scenes/MainScene.lua:1742
+msgid "您在比賽“{s1}”中獲得第{s2}名"
+msgstr "ท่านได้อันดับที่ {s2} ใน {s1}"
+
+#: src/app/scenes/MainScene.lua:1670
+msgid "比赛已经开始，以免失去奖励资格，请尽快入场！"
+msgstr "การแข่งเริ่มแล้ว  เพื่อไม่ให้เสียสิทธิ์การรับรางวัล รีบเข้าห้องด่วน! "
+
+#: src/app/scenes/MainScene.lua:1673 src/app/views/MttMatchInfoDialog.lua:91
+msgid "提醒添加成功!"
+msgstr "ตั้งค่าสำเร็จ"
+
+#: src/app/scenes/MainScene.lua:1675 src/app/views/MttMatchInfoDialog.lua:93
+msgid "提醒添加失败,稍后再试!"
+msgstr "เพิ่มการแจ้งเตือนล้มเหลว กรุณาลองใหม่ภายหลัง"
+
+#: src/app/scenes/MainScene.lua:1681
+msgid "您已报名成功,请按时参赛。祝您在比赛中获得好成绩！"
+msgstr "สมัครสำเร็จ กรุณาเข้าแข่งตามเวลา ขอให้ได้รางวัลนะคะ!"
+
+#: src/app/scenes/MainScene.lua:1683
+msgid "报名成功,为避免您错过比赛,建议您设置比赛提示!"
+msgstr "สมัครสำเร็จ เพื่อไม่ให้พลาดการแข่งแมทนี้ ตั้งค่าแจ้งเตือนเข้าแข่งเลยสิ!"
+
+#: src/app/scenes/MainScene.lua:1697
+msgid "未开放报名"
+msgstr "ยังไม่เปิดรับสมัคร กรุณาลองใหม่ภายหลัง"
+
+#: src/app/scenes/MainScene.lua:1700
+msgid "比赛人数满"
+msgstr "คนสมัครเต็มแล้ว กรุณาติดตามครั้งต่อไป"
+
+#: src/app/scenes/MainScene.lua:1709
+msgid "比赛人数不够,自动取消"
+msgstr "การแข่งขันรอบนี้ยกเลิกแล้ว กรุณาติดตามครั้งต่อไป"
+
+#: src/app/scenes/MainScene.lua:1807
+#: src/app/scenes/controler/RoomControler.lua:1693
+msgid "{s1} 期 开奖号码是 {s2} {s3} {s4} 和值{s5}"
+msgstr "รอบที่{s1} หมายเลขการเปิดรางวัลคือ {s2} {s3} {s4} ผลบวก {s5}"
+
+#: src/app/scenes/RoomScene.lua:69 src/app/views/CustomGuestDialog.lua:68
+#: src/app/views/CustomMasterDialog.lua:127
+msgid "房间ID:"
+msgstr "ID ของห้อง:"
+
+#: src/app/scenes/RoomScene.lua:1599
+msgid "我的排名:{s1}/{s2}"
+msgstr "อันดับของฉัน: {s1}/{s2}"
+
+#: src/app/scenes/RoomScene.lua:1609
+msgid "{s1}分钟内涨盲:{s2}/{s3}"
+msgstr "หลัง {s1} นาท บลายด์:{s2}/{s3}"
+
+#: src/app/scenes/RoomScene.lua:1612
+msgid "-分钟内涨盲:{s1}/{s2}"
+msgstr "หลัง - นาท บลายด์:{s1}/{s2}"
+
+#: src/app/scenes/RoomScene.lua:1619
+msgid "前注:{s1}"
+msgstr "เดิมพัน :{s1}"
+
+#: src/app/scenes/RoomScene.lua:1637 src/app/scenes/RoomScene.lua:1691
+#: src/app/views/BuyChipsDialog.lua:89 src/app/views/CashSetView.lua:191
+msgid "前注:"
+msgstr "เดิมพัน :"
+
+#: src/app/scenes/RoomScene.lua:1675 src/app/views/BuyChipsDialog.lua:75
+#: src/app/views/CashSetView.lua:178
+msgid "盲注:"
+msgstr "บลายด์:"
+
+#: src/app/scenes/controler/RoomControler.lua:113
+msgid "房间类型出错"
+msgstr "ดึงข้อมูลผิดพลาด  กรุณาลองใหม่ภายหลัง"
+
+#: src/app/scenes/controler/RoomControler.lua:153
+#: src/app/scenes/controler/RoomControler.lua:719
+#: src/app/scenes/controler/RoomControler.lua:760
+#: src/app/scenes/controler/RoomControler.lua:782
+#: src/app/scenes/controler/RoomControler.lua:799
+#: src/app/scenes/controler/RoomControler.lua:825
+msgid "您的筹码不足,請補充筹码"
+msgstr "เหรียญเกมของท่านมีไม่พอ กรุณาไปเพิ่มเหรียญเกมก่อนค่ะ"
+
+#: src/app/scenes/controler/RoomControler.lua:206
+msgid "等待配桌"
+msgstr "รอจัดห้อง"
+
+#: src/app/scenes/controler/RoomControler.lua:569
+#: src/app/scenes/controler/RoomControler.lua:584
+#: src/app/scenes/controler/RoomControler.lua:1643
+#: src/app/views/RoomUserinfoDialog.lua:147
+msgid "您的筹码不足"
+msgstr "เหรียญมีไม่พอค่ะ"
+
+#: src/app/scenes/controler/RoomControler.lua:608
+#: src/app/scenes/controler/RoomControler.lua:628
+msgid "您要放棄當前手牌，離開牌局嗎？"
+msgstr "ท่านจะทิ้งไพ่รอบนี้แล้วออกจากห้อง?"
+
+#: src/app/scenes/controler/RoomControler.lua:616
+#: src/app/scenes/controler/RoomControler.lua:636
+msgid "您要離開牌局，停止玩牌嗎？"
+msgstr "ท่านจะออกจากห้องตอนนี้?"
+
+#: src/app/scenes/controler/RoomControler.lua:649
+msgid "離開房間后，您可以通過“大廳-我的牌局”重回牌局"
+msgstr "หลังออกห้อง ท่านสามารถดูการเล่นเก่าได้ที่\"ล็อบบี้-รอบไพ่ของฉัน\""
+
+#: src/app/scenes/controler/RoomControler.lua:661
+msgid "您要放棄當前底池，離開座位嗎？"
+msgstr "ท่านจะทิ้งชิปเดิมพันแล้วลุกขึ้น?"
+
+#: src/app/scenes/controler/RoomControler.lua:727
+msgid "下局自动购买"
+msgstr "รอบหน้าซื้ออัตโนมัติ"
+
+#: src/app/scenes/controler/RoomControler.lua:731
+#: src/app/scenes/controler/RoomControler.lua:842
+msgid "請先坐下"
+msgstr "กรุณานั่งลงก่อน"
+
+#: src/app/scenes/controler/RoomControler.lua:836
+msgid "下局自動補滿"
+msgstr "รอบหน้าซื้อเข้าอัตโนมัติ"
+
+#: src/app/scenes/controler/RoomControler.lua:838
+msgid "關閉自動補滿"
+msgstr "ปิดการซื้อเข้าอัตโนมัติ"
+
+#: src/app/scenes/controler/RoomControler.lua:858
+#: src/app/scenes/controler/RoomControler.lua:876
+#: src/app/scenes/controler/RoomControler.lua:896
+msgid "還沒輪到你行動"
+msgstr "ยังไม่ถีงตาของท่าน"
+
+#: src/app/scenes/controler/RoomControler.lua:1023
+#: src/app/scenes/controler/RoomControler.lua:1051
+msgid "请先坐下"
+msgstr "กรุณานั่งลงก่อน"
+
+#: src/app/scenes/controler/RoomControler.lua:1046
+msgid "玩家已离桌"
+msgstr "ผู้เล่นออกจากโตะแล้ว"
+
+#: src/app/scenes/controler/RoomControler.lua:1127
+msgid "服務器維護，您已被請出房間"
+msgstr "กำลังปรับปรุงเซิร์ฟเวอร์ ท่านถูกเชิญออกจากห้องค่ะ"
+
+#: src/app/scenes/controler/RoomControler.lua:1132
+#: src/app/views/CustomRoomDialog.lua:342
+msgid "房间不存在"
+msgstr "ไม่มีห้องนั้น"
+
+#: src/app/scenes/controler/RoomControler.lua:1137
+msgid "登陸房間失敗"
+msgstr "เข้าห้องล้มเหลว"
+
+#: src/app/scenes/controler/RoomControler.lua:1156
+msgid "坐下失敗！"
+msgstr "นั่งลงล้มเหลว"
+
+#: src/app/scenes/controler/RoomControler.lua:1174
+msgid "站起失敗！"
+msgstr "ยืนขึ้นล้มเหลว"
+
+#: src/app/scenes/controler/RoomControler.lua:1192
+msgid "太久未操作，您已被請出房間"
+msgstr "ท่านไม่ได้ดำเนินการเป็นเวลานาน ถูกเชิญออกจากห้องค่ะ"
+
+#: src/app/scenes/controler/RoomControler.lua:1220
+msgid "退出失敗！"
+msgstr "ออกห้องล้มเหลว"
+
+#: src/app/scenes/controler/RoomControler.lua:1294
+msgid "操作失敗！ret："
+msgstr "ดำเนินการล้มเหลว ret:"
+
+#: src/app/scenes/controler/RoomControler.lua:1316
+#: src/app/scenes/controler/RoomControler.lua:1532
+msgid "比賽已經結束"
+msgstr "การแข่งจบแล้ว"
+
+#: src/app/scenes/controler/RoomControler.lua:1433
+#: src/app/scenes/controler/RoomControler.lua:1567
+msgid "您报名的“{s1}”比赛已经开赛，您可以通过“大厅-我的牌局”查看详情"
+msgstr "\"{s1}\" ที่ท่านสมัครไว้เริ่มแข่งแล้ว ท่านสามารถเช็คได้ที่ \"ล็อบบี้-รอบไพ่ของฉัน\""
+
+#: src/app/scenes/controler/RoomControler.lua:1442
+#: src/app/scenes/controler/RoomControler.lua:1578
+msgid "比賽將在{s1}秒内開始"
+msgstr "การแข่งจะเริ่มภายใน {s1} วินาที"
+
+#: src/app/scenes/controler/RoomControler.lua:1445
+#: src/app/scenes/controler/RoomControler.lua:1581
+msgid "等待系統配桌..."
+msgstr "รอจัดห้อง"
+
+#: src/app/scenes/controler/RoomControler.lua:1447
+#: src/app/scenes/controler/RoomControler.lua:1583
+msgid "請等待{s1}秒"
+msgstr "กรุณารอ {s1} วินาที"
+
+#: src/app/scenes/controler/RoomControler.lua:1527
+msgid "没参加此场比赛"
+msgstr "ท่านไม่ได้ร่วมแข่งครั้งนี้"
+
+#: src/app/scenes/controler/RoomControler.lua:1565
+msgid "您报名的比赛已经开赛，您可以通过“大厅-我的牌局”查看详情"
+msgstr "ที่ท่านสมัครไว้เริ่มแข่งแล้ว ท่านสามารถเช็คได้ที่ \"ล็อบบี้-รอบไพ่ของฉัน\""
+
+#: src/app/utils/func.lua:802
+msgid "青铜"
+msgstr "ระดับทองแดง"
+
+#: src/app/utils/func.lua:804
+msgid "白银"
+msgstr "ระดับเงิน"
+
+#: src/app/utils/func.lua:806
+msgid "黄金"
+msgstr "ระดับทอง"
+
+#: src/app/utils/func.lua:808
+msgid "红宝石"
+msgstr "ระดับอัญมณีแดง"
+
+#: src/app/utils/func.lua:810
+msgid "祖母绿"
+msgstr "ระดับมรกต"
+
+#: src/app/utils/func.lua:812
+msgid "蓝钻石"
+msgstr "ระดับเพชร"
+
+#: src/app/views/BankruptcyDialog.lua:45
+#: src/app/views/RecommendGoodsDialog.lua:29
+msgid "马上购买,畅玩游戏!"
+msgstr "ซื้อทันที ฟันนี่เกม"
+
+#: src/app/views/BankruptcyDialog.lua:76
+msgid "今天还剩{s1}次领取机会"
+msgstr "วันนี้มีสิทธิ์รับอีก {s1} ครั้ง"
+
+#: src/app/views/BankruptcyDialog.lua:78
+msgid "今天的补助已经领完，请您明天继续！"
+msgstr "สิ่งอุดหนุนวันนี้หมดแล้ว กรุณารับพรุ่งนี้ต่อ"
+
+#: src/app/views/BuyChipsDialog.lua:114
+msgid "剩余筹码:{s1}"
+msgstr "จำนวนคนที่เหลือ {s1}"
+
+#: src/app/views/BuyChipsDialog.lua:119
+msgid "买入:{s1}"
+msgstr "ซื้อเข้า:{s1}"
+
+#: src/app/views/CashSetView.lua:118 src/app/views/CreateRoomDialog.lua:37
+#: src/app/views/CustomGuestDialog.lua:163
+#: src/app/views/CustomMasterDialog.lua:222
+msgid "买入:"
+msgstr "ซื้อเข้า:"
+
+#: src/app/views/CashSetView.lua:136
+msgid "我的筹码餘額:"
+msgstr "จำนวนคนที่เหลือ"
+
+#: src/app/views/CashSetView.lua:223
+msgid "請選擇場次"
+msgstr "กรุณาเลือกห้อง"
+
+#: src/app/views/CreateRoomDialog.lua:30
+msgid "房间名称:"
+msgstr "ชื่อห้อง"
+
+#: src/app/views/CreateRoomDialog.lua:31
+#: src/app/views/CustomGuestDialog.lua:186
+#: src/app/views/CustomMasterDialog.lua:245
+msgid "留言:"
+msgstr "ฝากข้อความ"
+
+#: src/app/views/CreateRoomDialog.lua:32
+msgid "盲注设置:"
+msgstr "บลายด์"
+
+#: src/app/views/CreateRoomDialog.lua:33
+msgid "前注设置:"
+msgstr "เดิมพัน"
+
+#: src/app/views/CreateRoomDialog.lua:34
+msgid "牌局时间:"
+msgstr "เลวาห้อง"
+
+#: src/app/views/CreateRoomDialog.lua:35
+msgid "(小时)"
+msgstr "(ชั่วโมง)"
+
+#: src/app/views/CreateRoomDialog.lua:36
+msgid "买入大小:"
+msgstr "ซื้อเข้า"
+
+#: src/app/views/CreateRoomDialog.lua:38
+msgid "人数设置"
+msgstr "ตั้งค่าจำนวนคน"
+
+#: src/app/views/CreateRoomDialog.lua:56 src/app/views/CreateRoomDialog.lua:344
+msgid "请输入房间名称"
+msgstr "กรุญาอินพุทชื่อห้อง"
+
+#: src/app/views/CreateRoomDialog.lua:76
+msgid "请输入房间留言"
+msgstr "กรุณาป้อนข้อมูลที่ท่านต้องการฝาก"
+
+#: src/app/views/CreateRoomDialog.lua:428
+msgid "创建失败,请稍后再试!"
+msgstr "แต่งตั้งล้มเหลว กรุณาลองใหม่ภายหลัง"
+
+#: src/app/views/CustomGuestDialog.lua:54
+#: src/app/views/CustomMasterDialog.lua:113
+#: src/app/views/CustomOverDialog.lua:37
+msgid "创建者:"
+msgstr "ผู้แต่งตั้ง:"
+
+#: src/app/views/CustomGuestDialog.lua:86
+#: src/app/views/CustomMasterDialog.lua:145
+msgid "创建时间:"
+msgstr "เลวาแต่งตั้ง:"
+
+#: src/app/views/CustomGuestDialog.lua:104
+#: src/app/views/CustomMasterDialog.lua:163
+msgid "剩余时间:"
+msgstr "เวลาที่เหลือ:"
+
+#: src/app/views/CustomGuestDialog.lua:125
+#: src/app/views/CustomMasterDialog.lua:184
+#: src/app/views/CustomOverDialog.lua:38
+msgid "小时"
+msgstr "ชั่วโมง"
+
+#: src/app/views/CustomMasterDialog.lua:92
+#: src/app/views/CustomOverDialog.lua:44
+msgid "筹码奖励:"
+msgstr "มอบรางวัลชิป:"
+
+#: src/app/views/CustomRoomDialog.lua:36
+msgid "请输入房间ID"
+msgstr "กรุญาอินพุทIDห้อง"
+
+#: src/app/views/CustomRoomDialog.lua:96 src/app/views/CustomRoomDialog.lua:230
+msgid "创建自己的专属房间，打牌就能赢奖励！"
+msgstr "แต่งตั้งห้องพิเศษตนเอง เล่นไพ่ก็ได้รับรางวัล"
+
+#: src/app/views/EverydayListDialog.lua:161
+msgid "第{s1}天"
+msgstr "วันที่ {s1}"
+
+#: src/app/views/FirstRechargeDialog.lua:54
+msgid "每位玩家仅能购买一次首充礼包"
+msgstr "แพคเกจเติมชิปครั้งแรกซื้อได้ 1 ครั้ง/ท่าน"
+
+#: src/app/views/FirstRechargeDialog.lua:70
+msgid "仅需{s1}{s2}"
+msgstr "เพียง{s1}{s2}"
+
+#: src/app/views/FreeRewardDialog.lua:42
+msgid "分享奖励"
+msgstr "แบ่งปัง"
+
+#: src/app/views/FreeRewardDialog.lua:43
+msgid "邀请好友"
+msgstr "เชิญเพื่อน"
+
+#: src/app/views/FreeRewardDialog.lua:44
+msgid "邀请码"
+msgstr "อินไฟ้ทโค้ด"
+
+#: src/app/views/FreeRewardDialog.lua:117
+msgid "全选"
+msgstr "เลือกทั้งหมด"
+
+#: src/app/views/FreeRewardDialog.lua:128
+msgid "快来和{s1}一起游戏，每天都有免费奖励！"
+msgstr "มาเล่นเกมส์กับ{s1}ด้วยกัน มีรางวัลฟรีทุกวัน"
+
+#: src/app/views/FreeRewardDialog.lua:142
+msgid "你的个人邀请码"
+msgstr "อินไฟ้ทโค้ดส่วนตัวของท่าน"
+
+#: src/app/views/FreeRewardDialog.lua:144
+msgid "新玩家登录3天内，输入邀请码并进行3局现金场游戏，则双方均可获赠{s1}筹码"
+msgstr ""
+"ผู้เล่นใหม่ล็อคอินภายใน 3 วัน และอินพุทอินไฟ้ทโค้ดไปเล่นเกมส์เงินสด 3 รอบ \n"
+"ทั้งสองฝ่ายจะได้รับชิปจำนวน {s1}"
+
+#: src/app/views/FreeRewardDialog.lua:156
+msgid "请输入邀请码"
+msgstr "อินพุทอินไฟ้ทโค้ด"
+
+#: src/app/views/FreeRewardDialog.lua:172
+#: src/app/views/FreeRewardDialog.lua:187
+msgid "复制成功"
+msgstr "ทำสำเร็จ"
+
+#: src/app/views/FreeRewardDialog.lua:174
+#: src/app/views/FreeRewardDialog.lua:189
+msgid "复制失败"
+msgstr "ทำล้มเหลว"
+
+#: src/app/views/FreeRewardDialog.lua:233
+msgid "每天仅限一次,赠送{s1}筹码"
+msgstr "วันละ 1 ครั้ง แถมชิป {s1}"
+
+#: src/app/views/FreeRewardDialog.lua:418
+msgid "每有一位新好友加入游戏，并进行3局游戏，你即可获赠{s1}筹码"
+msgstr "ถ้ามีเพื่อนใหม่ล็อคอิน และได้เล่นเกมส์เงินสด 3 รอบมา จะได้รับชิปจำนวน {s1}"
+
+#: src/app/views/FreeRewardDialog.lua:492
+msgid "成功"
+msgstr "ทำสำเร็จ"
+
+#: src/app/views/FreeRewardDialog.lua:495
+msgid "失败"
+msgstr "ทำล้มเหลว"
+
+#: src/app/views/GiftDialog.lua:37
+msgid "请输入用户ID"
+msgstr "กรุณาอินพุท ID ของผู้ใช้โบริการ"
+
+#: src/app/views/GiftDialog.lua:67
+msgid "请输入筹码数量"
+msgstr "กรุณาอินพุทจำนวนชิป"
+
+#: src/app/views/GiftDialog.lua:135
+msgid "输入用户ID错误"
+msgstr "อินพุท ID ของผู้ใช้โบริการผิด"
+
+#: src/app/views/GiftDialog.lua:147 src/app/views/GiftDialog.lua:152
+msgid "额度不对，请修改额度"
+msgstr "โควต้าผิด กรุณาแก้ไข"
+
+#: src/app/views/GiftDialog.lua:266
+msgid "用户不存在"
+msgstr "ไม่มีผู้ใช้โบริการนี้"
+
+#: src/app/views/GiftDialog.lua:276 src/app/views/GiftDialog.lua:288
+msgid "最多赠送 {s1} 筹码"
+msgstr "จะมอบให้ชิปมากสุด {s1}"
+
+#: src/app/views/GiftDialog.lua:277 src/app/views/GiftDialog.lua:289
+msgid "今天还剩{s1}的赠送额度"
+msgstr "วันนี้ยังเหลือโควต้าแถมเป็น {s1}"
+
+#: src/app/views/GiftDialog.lua:278
+msgid "账户内最少保留{s1}筹码"
+msgstr "อย่างน้อยเก็บชิป จำนวน {s1} ไว้ในบัญชี"
+
+#: src/app/views/GiftDialog.lua:292
+msgid "赠送成功"
+msgstr "ทำสำเร็จ"
+
+#: src/app/views/GiftDialog.lua:294
+msgid "操作失败，请稍后再试"
+msgstr "ทำล้มเหลว"
+
+#: src/app/views/HallReconnectView.lua:27
+#: src/app/views/RoomReconnectView.lua:23
+msgid "網絡異常,重新連接中..."
+msgstr "เน็ตผิดปกติ กำลังเชือกใหม่อยู่"
+
+#: src/app/views/HallReconnectView.lua:28
+#: src/app/views/RoomReconnectView.lua:24
+msgid "網絡無法連接，請稍後再試！"
+msgstr "ไวไฟไม่ติด กรุณาลองใหม่ภายหลัง"
+
+#: src/app/views/InformationAuthenticationDialog.lua:67
+msgid "請輸入真實姓名"
+msgstr "กรุณาอินพุทชื่อจริง"
+
+#: src/app/views/InformationAuthenticationDialog.lua:69
+msgid "真实姓名:"
+msgstr "ชื่อจริง"
+
+#: src/app/views/InformationAuthenticationDialog.lua:70
+msgid "請輸入有效的真實姓名"
+msgstr "กรุณาอินพุทชื่อจริงที่ใช้ได้"
+
+#: src/app/views/InformationAuthenticationDialog.lua:72
+msgid "請輸入聯絡電話"
+msgstr "กรุณาอินพุทเบอร์โทร"
+
+#: src/app/views/InformationAuthenticationDialog.lua:74
+msgid "联络电话:"
+msgstr "เบอร์โทรศัพท์"
+
+#: src/app/views/InformationAuthenticationDialog.lua:75
+msgid "請輸入有效的電話號碼"
+msgstr "กรุณาอินพุทเบอร์โทรที่ใช้ได้"
+
+#: src/app/views/InformationAuthenticationDialog.lua:78
+#: src/app/views/InformationAuthenticationDialog.lua:492
+msgid "請輸入身份證"
+msgstr "กรุณาอินพุทID Card"
+
+#: src/app/views/InformationAuthenticationDialog.lua:80
+#: src/app/views/InformationAuthenticationDialog.lua:493
+msgid "ID CARD:"
+msgstr "ID CARD"
+
+#: src/app/views/InformationAuthenticationDialog.lua:81
+#: src/app/views/InformationAuthenticationDialog.lua:494
+msgid "請輸入有效的身份證號碼"
+msgstr "กรุณาอินพุทID Card numberที่ใช้ได้"
+
+#: src/app/views/InformationAuthenticationDialog.lua:84
+msgid "請輸入通訊地址"
+msgstr "กรุณาอินพุตที่อยู่"
+
+#: src/app/views/InformationAuthenticationDialog.lua:86
+msgid "通訊地址:"
+msgstr "ที่อยู่"
+
+#: src/app/views/InformationAuthenticationDialog.lua:87
+msgid "請輸入有效的通訊地址"
+msgstr "กรุณาอินพุตที่อยู่ที่ใช้ได้"
+
+#: src/app/views/InformationAuthenticationDialog.lua:90
+msgid "运营商"
+msgstr "ผู้ประกอบการ"
+
+#: src/app/views/InformationAuthenticationDialog.lua:114
+msgid "該信息只為提供獎品兌換而收集，不會存在個人信息泄露的風險"
+msgstr "รวมข้อมูลเพื่อส่งรางวัลให้ท่านเท่านั้น ข้อมูลจะถูกเก็บเป็นความลับ ปลอดภัยหายห่วง"
+
+#: src/app/views/InformationAuthenticationDialog.lua:115
+msgid "中獎人同意本公司取得個人資料后，僅供本次活動領獎及提供第三人寄送獎品之用"
+msgstr "ผู้ที่ได้รางวัลยอมรับให้ระบบดึงข้อมูลส่วนตัวเพื่อใช้ในการส่งรางวัลเท่านั้น"
+
+#: src/app/views/InformationAuthenticationDialog.lua:421
+#: src/app/views/InformationAuthenticationDialog.lua:456
+msgid "請輸入郵箱地址"
+msgstr "กรุณาอินพุตเลขที่บัญชีอีเมล"
+
+#: src/app/views/InformationAuthenticationDialog.lua:422
+#: src/app/views/InformationAuthenticationDialog.lua:457
+msgid "郵箱地址:"
+msgstr "อีเมล"
+
+#: src/app/views/InformationAuthenticationDialog.lua:423
+#: src/app/views/InformationAuthenticationDialog.lua:458
+msgid "請輸入有效的郵箱地址"
+msgstr "กรุณาอินพุตเลขที่บัญชีอีเมลที่ใช้ได้"
+
+#: src/app/views/LttMatchItem.lua:131
+msgid "下次开奖时间 {s1}"
+msgstr "เวลาเวฃเปิดรางวัลครั้งหน้า {s1}"
+
+#: src/app/views/MatchInfoDialog.lua:41 src/app/views/MttMatchInfoDialog.lua:47
+#: src/app/views/MttMatchInfoDialog.lua:159
+msgid "名次"
+msgstr "อันดับ"
+
+#: src/app/views/MatchInfoDialog.lua:42 src/app/views/MttMatchInfoDialog.lua:48
+msgid "獎勵"
+msgstr "รางวัล"
+
+#: src/app/views/MatchInfoDialog.lua:66
+#: src/app/views/MttMatchInfoDialog.lua:131
+msgid "是否取消報名？"
+msgstr "ตกลงจะยกเลิกการสมัครหรือไม่?"
+
+#: src/app/views/MatchInfoDialog.lua:84
+msgid "剩餘人數："
+msgstr "จำนวนคนที่เหลือ"
+
+#: src/app/views/MatchInfoDialog.lua:92
+#: src/app/views/MttMatchInfoDialog.lua:1197
+#: src/app/views/MttMatchInfoDialog.lua:1215
+msgid "免費"
+msgstr "ฟรี"
+
+#: src/app/views/MatchInfoDialog.lua:103
+msgid "報名費用: {s1}"
+msgstr "ค่าสมัคร: {s1}"
+
+#: src/app/views/MatchInfoDialog.lua:107
+msgid "滿{s1}人開賽:"
+msgstr "ครบ {s1} ท่านเปิดแข่ง:"
+
+#: src/app/views/MatchInfoDialog.lua:116
+msgid "起始籌碼: {s1}"
+msgstr "ชิปเริ่มต้น: {s1}"
+
+#: src/app/views/MatchInfoDialog.lua:258
+#: src/app/views/MttMatchInfoDialog.lua:537
+msgid "起始盲注: {s1}/{s2} ante {s3}"
+msgstr "บลายด์เริ่มต้น: {s1}/{s2} ante {s3}"
+
+#: src/app/views/MatchInfoDialog.lua:555
+#: src/app/views/MttMatchInfoDialog.lua:1049
+msgid "{s1}分鍾後"
+msgstr "หลัง {s1} นาที"
+
+#: src/app/views/MatchInfoDialog.lua:575
+#: src/app/views/MttMatchInfoDialog.lua:1069
+#: src/app/views/MttMatchInfoDialog.lua:1099
+msgid "當前等級: {s1}/{s2} ante {s3}"
+msgstr "เลเวลปัจจุบัน: {s1}/{s2} ante {s3}"
+
+#: src/app/views/MatchInfoDialog.lua:577
+#: src/app/views/MttMatchInfoDialog.lua:1071
+msgid "下一等級: {s1}/{s2} ante {s3}"
+msgstr "เลเวลถัดไป: {s1}/{s2} ante {s3}"
+
+#: src/app/views/MatchInfoDialog.lua:647
+#: src/app/views/MttMatchInfoDialog.lua:1132
+#: src/app/views/MttMatchInfoDialog.lua:1299
+msgid "最低：{s1}"
+msgstr "ต่ำสุด:{s1}"
+
+#: src/app/views/MatchInfoDialog.lua:648
+#: src/app/views/MttMatchInfoDialog.lua:1148
+#: src/app/views/MttMatchInfoDialog.lua:1298
+msgid "平均：{s1}"
+msgstr "เฉลี่ย:{s1}"
+
+#: src/app/views/MatchInfoDialog.lua:649
+#: src/app/views/MttMatchInfoDialog.lua:1164
+#: src/app/views/MttMatchInfoDialog.lua:1297
+msgid "最大：{s1}"
+msgstr "มากสุด:{s1}"
+
+#: src/app/views/MatchResultView.lua:83
+msgid "{s1}刚刚参与了[{s2}],和他一起加油，向冠军冲击!"
+msgstr "{s1}เพิ่งเข่าร่วม[{s2}]เร่งมือเข้ากับเขา ไปชนะกัน"
+
+#: src/app/views/MatchResultView.lua:84 src/app/views/MatchResultView.lua:120
+msgid "恭喜{s1}在{s2}{s3}人中荣获"
+msgstr "ยินดีด้วยค่ะ {s1} เข้าร่วม {s2} ในจำนวนคน {s3}ได้รับ"
+
+#: src/app/views/MttMatchInfoDialog.lua:87
+msgid "已为您设置按时提醒，当比赛开放报名时会发送提醒信息，请留意查看！"
+msgstr "ตั้งค่าแจ้งเตือนสำเร็จ เมื่อเปิดรับสมัครเข้าแข่ง ระบบจะส่งแจ้งเตือนให้ กรุณาเช็คด้วยค่ะ"
+
+#: src/app/views/MttMatchInfoDialog.lua:121
+msgid "报名费用不足"
+msgstr "ค่าสมัครไม่พอ"
+
+#: src/app/views/MttMatchInfoDialog.lua:149
+msgid "等级"
+msgstr "เลเวล"
+
+#: src/app/views/MttMatchInfoDialog.lua:150
+msgid "盲注"
+msgstr "บลายด์"
+
+#: src/app/views/MttMatchInfoDialog.lua:151
+msgid "前注"
+msgstr "เดิมพัน"
+
+#: src/app/views/MttMatchInfoDialog.lua:152
+msgid "涨盲时间"
+msgstr "เวลา"
+
+#: src/app/views/MttMatchInfoDialog.lua:160
+#: src/app/views/MyMatchListView.lua:28 src/app/views/PrizeCenterView.lua:61
+msgid "名称"
+msgstr "ชื่อ"
+
+#: src/app/views/MttMatchInfoDialog.lua:161
+msgid "筹码量"
+msgstr "ชิป"
+
+#: src/app/views/MttMatchInfoDialog.lua:334
+#: src/app/views/MttMatchInfoDialog.lua:336 src/app/views/MttMatchItem.lua:303
+#: src/app/views/MttMatchItem.lua:305
+msgid "赛前{s1}小时开放"
+msgstr "เปิด{s1}ก่อนเริ่มการแข่งขัน"
+
+#: src/app/views/MttMatchInfoDialog.lua:339 src/app/views/MttMatchItem.lua:308
+msgid "赛前{s1}分钟开放"
+msgstr "เปิดก่อนแข่ง {s1} นาท"
+
+#: src/app/views/MttMatchInfoDialog.lua:354
+#: src/app/views/MttMatchInfoDialog.lua:419
+msgid "开赛时间 {s1}"
+msgstr "เวลาเริ่มแข่ง {s1}"
+
+#: src/app/views/MttMatchInfoDialog.lua:382
+#: src/app/views/MttMatchInfoDialog.lua:388
+msgid "已报名"
+msgstr "สมัครแล้ว"
+
+#: src/app/views/MttMatchInfoDialog.lua:384
+msgid "即将开始"
+msgstr "กำลังจะเริ่ม"
+
+#: src/app/views/MttMatchInfoDialog.lua:390
+#: src/app/views/MyMatchListItem.lua:80
+msgid "报名中"
+msgstr "กำลังสมัคร "
+
+#: src/app/views/MttMatchInfoDialog.lua:758 src/app/views/ShopPopups.lua:95
+msgid "筹码"
+msgstr "ชิป"
+
+#: src/app/views/MttMatchInfoDialog.lua:761 src/app/views/MttMatchItem.lua:175
+msgid "vip点"
+msgstr "คะแนน"
+
+#: src/app/views/MttMatchInfoDialog.lua:1116
+#: src/app/views/MttMatchInfoDialog.lua:1296
+msgid "剩余人数:{s1}"
+msgstr "จำนวนคนที่เหลือ {s1}"
+
+#: src/app/views/MttMatchItem.lua:324
+msgid "今天"
+msgstr "วันนี้"
+
+#: src/app/views/MttMatchItem.lua:327
+msgid "明天"
+msgstr "พรุ่งนี้"
+
+#: src/app/views/MttMatchItem.lua:330
+msgid "后天"
+msgstr "วันมะรืน"
+
+#: src/app/views/MttMatchItem.lua:333
+msgid "{s1}月{s2}日"
+msgstr "{s1}-{s2}"
+
+#: src/app/views/MyMatchListItem.lua:40
+msgid "現金場"
+msgstr "ห้องเงินสด"
+
+#: src/app/views/MyMatchListItem.lua:83
+msgid "进行中"
+msgstr "กำลังแข่ง "
+
+#: src/app/views/MyMatchListView.lua:27
+msgid "序号"
+msgstr "หมายเลข"
+
+#: src/app/views/MyMatchListView.lua:29
+msgid "状态"
+msgstr "สถานะ"
+
+#: src/app/views/PreActionView.lua:56
+msgid "弃牌"
+msgstr "หมอบ"
+
+#: src/app/views/PreActionView.lua:70
+msgid "跟注"
+msgstr "สู้"
+
+#: src/app/views/PreActionView.lua:74
+msgid "跟任何注"
+msgstr "สู้ทุกตา"
+
+#: src/app/views/PreActionView.lua:81
+msgid "弃牌/过牌"
+msgstr "หมอบ/ผ่าน"
+
+#: src/app/views/PreActionView.lua:84
+msgid "过牌"
+msgstr "ผ่าน"
+
+#: src/app/views/PreActionView.lua:87
+msgid "跟任何注/过牌"
+msgstr "สู้ทุกตา/ผ่าน"
+
+#: src/app/views/PrizeCenterView.lua:62
+msgid "庫存"
+msgstr "สินค้าคงคลัง"
+
+#: src/app/views/PrizeCenterView.lua:63
+msgid "vip點數"
+msgstr "คะแนน"
+
+#: src/app/views/PrizeCenterView.lua:64
+msgid "vip等級"
+msgstr "เลเวล"
+
+#: src/app/views/PrizeCenterViewItem.lua:167
+msgid "未知"
+msgstr "ไม่ทราบ"
+
+#: src/app/views/PushSetDialog.lua:21
+msgid ""
+"您还没有开启系统推送\n"
+"请立即设置!"
+msgstr ""
+"ท่านยังไม่เปิดการแจ้งเดือนทางระบบ\n"
+"กรุณาตั้งค่าทันที"
+
+#: src/app/views/RoomShareView.lua:39
+msgid "专属房[{s1}]-[ID:{s2}],盲注{s3}前注{s4}.快来加入"
+msgstr "ห้องพิเศษ [{s1}]-[ID:{s2}] เดิมพันตาบอด {s3} เดิมพัน{s4} มาเข้าร่วมทันที"
+
+#: src/app/views/RoomShareView.lua:41
+msgid "专属房[{s1}]-[ID:{s2}],盲注{s3}.快来加入"
+msgstr "ห้องพิเศษ [{s1}]-[ID:{s2}] เดิมพันตาบอด {s3} มาเข้าร่วมทันที"
+
+#: src/app/views/RoomUserinfoDialog.lua:28
+msgid "vip等级"
+msgstr "เลเวล"
+
+#: src/app/views/RoomUserinfoDialog.lua:47
+msgid "游戏ID:{s1}"
+msgstr "IDเกมส์ {s1}"
+
+#: src/app/views/RoomUserinfoDialog.lua:48
+msgid "筹码剩余:{s1}"
+msgstr "จำนวนคนที่เหลือ {s1}"
+
+#: src/app/views/RoomUserinfoDialog.lua:103
+#: src/app/views/RoomUserinfoDialog.lua:150
+msgid "操作过于频繁,请稍后再试"
+msgstr "ใช้งานบ่อยเกินไป กรุณาลองใหม่ทีหลัง"
+
+#: src/app/views/SeatView.lua:384
+msgid "高牌"
+msgstr "ไพ่สูง"
+
+#: src/app/views/SeatView.lua:385
+msgid "一对"
+msgstr "1 คู่"
+
+#: src/app/views/SeatView.lua:386
+msgid "二对"
+msgstr "2 คู่"
+
+#: src/app/views/SeatView.lua:387
+msgid "三条"
+msgstr "ตอง"
+
+#: src/app/views/SeatView.lua:388
+msgid "顺子"
+msgstr "สเตรท"
+
+#: src/app/views/SeatView.lua:389
+msgid "同花"
+msgstr "ฟลัช"
+
+#: src/app/views/SeatView.lua:390
+msgid "葫芦"
+msgstr "ฟูลเฮาส์"
+
+#: src/app/views/SeatView.lua:391
+msgid "金刚"
+msgstr "โฟร์การ์ด"
+
+#: src/app/views/SeatView.lua:392
+msgid "同花顺"
+msgstr "สเตรทฟลัช"
+
+#: src/app/views/SeatView.lua:393
+msgid "皇家同花顺"
+msgstr "รอยัลสเตรทฟลัช"
+
+#: src/app/views/SeatView.lua:416 src/app/views/SeatView.lua:504
+#: src/app/views/SeatView.lua:574
+msgid "离座留桌"
+msgstr "ยืนดู"
+
+#: src/app/views/SeatView.lua:563
+msgid "等待入局"
+msgstr "รอเข้าแข่ง"
+
+#: src/app/views/SettingView.lua:27
+msgid "音乐"
+msgstr "มิวสิค"
+
+#: src/app/views/SettingView.lua:28
+msgid "音效"
+msgstr "เสียง"
+
+#: src/app/views/SettingView.lua:111
+msgid "問題反饋：gm@woyaoent.com  版本:{s1}"
+msgstr "ฟีดแบค:gm@woyaoent.com  เวอร์ชั่น:{s1}"
+
+#: src/app/views/ShopPopups.lua:96
+msgid "礼包"
+msgstr "ชุดของขวัญ"
+
+#: src/app/views/ShopPopups.lua:97
+msgid "道具"
+msgstr "อุปกรณ์การแสดง"
+
+#: src/app/views/ShopPopups.lua:139 src/app/views/ShopPopups.lua:144
+#: src/app/views/VpDialog.lua:92 src/app/views/VpDialog.lua:97
+msgid "尚需{s1}VP"
+msgstr "ยังต้องการ VP {s1}"
+
+#: src/app/views/SpeakerEditDialog.lua:364
+msgid "发送失败，请稍后再试！"
+msgstr "ทำล้มเหลว"
+
+#: src/app/views/TouzhuActionItem.lua:60
+#: src/app/views/TouzhuActionRoomItem.lua:60
+#: src/app/views/TouzhuRandomView.lua:109
+msgid "和值:{s1}"
+msgstr "ผลบวก:{s1}"
+
+#: src/app/views/TouzhuActionItem.lua:62
+#: src/app/views/TouzhuActionRoomItem.lua:62
+#: src/app/views/TouzhuHistoryItems.lua:63 src/app/views/TouzhuLuckItems.lua:52
+msgid "单"
+msgstr "เดี่ยว"
+
+#: src/app/views/TouzhuActionItem.lua:64
+#: src/app/views/TouzhuActionRoomItem.lua:64
+#: src/app/views/TouzhuHistoryItems.lua:65 src/app/views/TouzhuLuckItems.lua:47
+msgid "小"
+msgstr "เล็ก"
+
+#: src/app/views/TouzhuActionItem.lua:66
+#: src/app/views/TouzhuActionRoomItem.lua:66
+#: src/app/views/TouzhuHistoryItems.lua:67 src/app/views/TouzhuLuckItems.lua:44
+msgid "大"
+msgstr "ใหญ่"
+
+#: src/app/views/TouzhuActionItem.lua:68
+#: src/app/views/TouzhuActionRoomItem.lua:68
+#: src/app/views/TouzhuHistoryItems.lua:69 src/app/views/TouzhuLuckItems.lua:55
+msgid "双"
+msgstr "คู่"
+
+#: src/app/views/TouzhuGameRoomView.lua:173
+#: src/app/views/TouzhuGameView.lua:167
+msgid "期号"
+msgstr "รอบที่"
+
+#: src/app/views/TouzhuGameRoomView.lua:174
+#: src/app/views/TouzhuGameView.lua:168
+msgid "和值"
+msgstr "ผลบวก"
+
+#: src/app/views/TouzhuGameRoomView.lua:738
+#: src/app/views/TouzhuGameView.lua:689
+msgid "距{s1}期截止"
+msgstr "สิ้นสุดจากรอบ{s1}"
+
+#: src/app/views/TouzhuGameRoomView.lua:761
+#: src/app/views/TouzhuGameView.lua:712
+msgid "暂停销售"
+msgstr "หยุดขายครวว"
+
+#: src/app/views/TouzhuGameRoomView.lua:778
+#: src/app/views/TouzhuGameView.lua:729
+msgid "{s1}期开奖中..."
+msgstr "รอบที่ {s1} กำลังเปิดรางวัล"
+
+#: src/app/views/TouzhuGameRoomView.lua:791
+#: src/app/views/TouzhuGameView.lua:742
+msgid "{s1}期开奖:"
+msgstr "รอบ{s1}เปิดรางวัล"
+
+#: src/app/views/TouzhuGameRoomView.lua:800
+#: src/app/views/TouzhuGameView.lua:751
+msgid "等待开奖"
+msgstr "คอยเปิดรางวัล"
+
+#: src/app/views/TouzhuGameRoomView.lua:1047
+#: src/app/views/TouzhuGameView.lua:998
+msgid "兑换成功"
+msgstr "แลกสำเร็จ"
+
+#: src/app/views/TouzhuGameRoomView.lua:1051
+#: src/app/views/TouzhuGameView.lua:1002
+msgid "兑换失败"
+msgstr "แลกล้มเหลว"
+
+#: src/app/views/TouzhuGameRoomView.lua:1064
+#: src/app/views/TouzhuGameView.lua:1015
+msgid "金币不足"
+msgstr "เหรียญมีไม่พอค่ะ"
+
+#: src/app/views/TouzhuGameRoomView.lua:1066
+#: src/app/views/TouzhuGameView.lua:1017
+msgid "投注失败"
+msgstr "เดิมพันล้มเหลว"
+
+#: src/app/views/TouzhuHistoryItems.lua:37
+msgid ""
+"\n"
+"期号 {s1}"
+msgstr ""
+"\n"
+"รอบที่ {s1}"
+
+#: src/app/views/TouzhuHistoryItems.lua:113
+msgid "{s1},{s2},{s3} 和值:{s4}\n"
+msgstr "{s1},{s2},{s3} ผลบวก:{s4}\n"
+
+#: src/app/views/TouzhuHistoryItems.lua:117
+msgid "未中奖"
+msgstr "ไม่ชนะ"
+
+#: src/app/views/TouzhuHistoryItems.lua:120
+msgid "中奖"
+msgstr "ถูกรางวัล"
+
+#: src/app/views/TouzhuHistoryItems.lua:125
+msgid "开奖中"
+msgstr "กำลังเปิดรางวัล"
+
+#: src/app/views/TouzhuWinningDialog.lua:115
+msgid "{s1}刚刚赢得了 {s2} 积分,加入游戏一起分享荣誉!"
+msgstr "{s1} เพิ่งชนะรับ คะแนน {s2} เข้าร่วมเกมส์แบ่งปันเกียรติกัน"
+
+#: src/app/views/UserinfoView.lua:196
+msgid "修改失败:"
+msgstr "แก้ไขล้มเหลว:"
+
+#: src/app/views/UserinfoView.lua:207
+msgid "昵称最多10个英文"
+msgstr "ความยาวชื่อไม่เกิน 10 ตัวอักษร"
+
+#: src/app/views/UserinfoView.lua:320
+msgid "有效期"
+msgstr "อายุ"
+
+#: src/app/views/VpDialog.lua:53
+msgid "购买优惠"
+msgstr "โปรโมชั่นการซื้อ"
+
+#: src/app/views/VpDialog.lua:54
+msgid "兑奖折扣"
+msgstr "ส่วนลดการแลก"
+
+#: src/app/views/VpDialog.lua:55
+msgid "登录奖励"
+msgstr "รางวัลล็อคอิน"
+
+#: src/framework/cc/utils/Gettext.lua:20
+msgid "hello"
+msgstr ""
+
+#: src/framework/cc/utils/Gettext.lua:22
+msgid "world"
+msgstr ""
+
+#~ msgid "大厅展示:"
+#~ msgstr "เห็นได้ทุกคน"
+
+#~ msgid "请输入喇叭消息"
+#~ msgstr " "
+
+#~ msgid "登陆失败 ret {s1}  error {s2}"
+#~ msgstr "ล็อกอินล้มเหลว  ret {s1}  error {s2}"
+
+#~ msgid "請求失敗 ret {s1}  error {s2}"
+#~ msgstr "ส่งคำร้องล้มเหลว ret {s1}  error {s2}"
+
+#~ msgid "金币到账"
+#~ msgstr "เหรียญเกมเข้าบัญชีแล้ว"
+
+#~ msgid "金幣不足"
+#~ msgstr "เหรียญมีไม่พอค่ะ"
+
+#~ msgid "音量"
+#~ msgstr "ระดับเสียง"
+
+#~ msgid "您的金幣不足"
+#~ msgstr "เหรียญเกมของท่านมีไม่พอค่ะ"
+
+#~ msgid "加注"
+#~ msgstr "เกเพิ่ม"
+
+#~ msgid "我的金幣餘額:"
+#~ msgstr "เหรียญคงเหลือ:"
+
+#~ msgid "金币"
+#~ msgstr "ชิป"
+
+#~ msgid "盲注:{s1}/{s2} 前注:{s3}"
+#~ msgstr "บลายด์: {s1}/{s2} เดิมพัน: {s3}"
+
+#~ msgid "盲注:{s1}/{s2}"
+#~ msgstr "บลายด์: {s1}/{s2}"
+
+#~ msgid "你的金幣不足"
+#~ msgstr "เหรียญเกมของท่านมีไม่พอค่ะ"
+
+#~ msgid "版本不支持"
+#~ msgstr "เวอร์ชั่นนี้ไม่สนับสนุนค่ะ"
+
+#~ msgid "創建訂單失敗"
+#~ msgstr "สร้างใบสั่งซื้อล้มเหลว"
+
+#~ msgid "vip点:"
+#~ msgstr "ซิปทองคำw"
+
+#, fuzzy
+#~| msgid "盲注:{s1}/{s2}"
+#~ msgid "{s1}-{s2}"
+#~ msgstr "บลายด์:{s1}/{s2}"
+
+#~ msgid "未报名"
+#~ msgstr "การยกเลิกสมัครล้มเหลว"
+
+#~ msgid "不可取消或比赛已结束"
+#~ msgstr "การรับข้อมูลผิดพลาด  กรุณาลองใหม่ภายหลัง"
+
+#~ msgid "版本:v"
+#~ msgstr "เวอร์ชั่น:v"

@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfGuidesProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GuidesProject>
+    <Project>room_layer</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>seat_view</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>room_menu_view</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>bet_view</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>pre_action</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>return_view</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>match_item</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>cash_item</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>shop_view</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>shop_item</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>cash_set_view</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>match_result_view</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>setting_view</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>login_layer</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>userinfo_view</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>loading_view</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>hall_reconnect_view</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>room_reconnect_view</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>my_match_list_view</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>my_match_list_item</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>match_info_dialog</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>announcement_dialog</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>speaker_view</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>choose_dialog</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>rule_view</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>splash_scene</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>prize_center_view</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>prize_center_item</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>prize_center_menu_item</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>information_authentication_dialog</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>hall_scene</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>mtt_match_item</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>ltt_match_item</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>sng_item</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>mtt_item</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>mtt_match_info_dialog</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>first_recharge_dialog</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>bankruptcy_dialog</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>cash_match_item</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>recommend_goods_dialog</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>room_userinfo_dialog</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>activity_center_dialog</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>recommended_activities_dialog</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>message_view</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>touzhugame_view</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>touzhu_aciton_item</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>touzhu_random_view</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>touzhu_exchange_view</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>touzhu_rule_view</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>touzhu_history_view</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>touzhu_history_items</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>touzhu_luck_items</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>push_set_dialog</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>touzhu_item</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>touzhu_winning_dialog</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>everyday_list_dialog</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>everyday_day_item</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>vp_dialog</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>shop_item_2</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>shop_item_3</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>gift_dialog</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>touzhugame_room_view</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>touzhu_luck_room_items</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>touzhu_aciton_room_item</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>speaker_edit_dialog</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>free_reward_dialog</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>invite_friends_item</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>custom_item</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>custom_room_dialog</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>custom_room_item</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>create_room_dialog</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>buy_chips_dialog</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>custom_guest_dialog</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>custom_master_dialog</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>custom_over_dialog</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>room_share_view</Project>
+    <GuidesList />
+  </GuidesProject>
+</ArrayOfGuidesProject>
